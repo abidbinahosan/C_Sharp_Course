@@ -14,10 +14,11 @@ namespace C_Sharp_Course
         {
             // Convert string to number in any type
             string number = "1234";
-            int num = int.Parse(number);
+            int way_one = Convert.ToInt32(number);
+            int way_two = int.Parse(number);
 
-            Console.WriteLine(num + 1);
-
+            Console.WriteLine(way_one + 1);
+            Console.WriteLine(way_two + 1);
         }
     }
 }
